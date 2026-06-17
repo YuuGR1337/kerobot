@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "kerobot"
+version = "0.1.0"
+description = "AI livechat auto-reply framework: NLU, slot-filling flows, escalation, and memory for customer-support bots."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+keywords = ["chatbot", "customer-support", "nlu", "automation", "llm", "openai", "ai-agent"]
+authors = [{ name = "Elkero" }]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Topic :: Communications :: Chat",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+dependencies = []
+
+[project.optional-dependencies]
+openai = ["openai>=1.0"]
+dev = ["pytest>=7.0"]
+
+[tool.setuptools.packages.find]
+include = ["kerobot*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
