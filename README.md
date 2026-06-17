@@ -140,6 +140,21 @@ The suite (runs fully offline) covers slot-skipping, cross-turn slot collection,
 
 ---
 
+## Use cases
+
+kerobot is a good fit if you're trying to:
+
+- build an **AI customer-support chatbot** that escalates to a human instead of looping
+- add a **Python auto-reply bot** to a website live-chat widget, Telegram, or WhatsApp
+- replace a rigid **menu/keyword FAQ bot** with one that understands natural language
+- handle **order tracking, refunds, and support triage** automatically
+- prototype a **conversational AI assistant** without paying for a SaaS chatbot platform
+- run an **on-premise / self-hosted chatbot** with no vendor lock-in and an offline fallback
+
+Think of it as a lightweight, self-hosted alternative to hosted chatbot builders — you own the code and the data.
+
+---
+
 ## Roadmap
 
 - Persistent memory backends (Redis, Postgres)
