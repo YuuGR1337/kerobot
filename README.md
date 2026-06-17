@@ -2,9 +2,9 @@
 
 [![Tests](https://img.shields.io/badge/tests-14%20passing-brightgreen)]() [![Python](https://img.shields.io/badge/python-3.9%2B-blue)]() [![License: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 
-**AI livechat auto-reply framework — build customer-support assistants that actually close conversations instead of looping forever or trapping users in rigid menus.**
+**Your support bot loops forever, re-asks for the order number the customer already gave, and never knows when to fetch a human — so people give up and your inbox fills with "is anyone there?"**
 
-Most support bots fail the same ways: they don't understand informal, misspelled messages; they re-ask for things the customer already said; they can't tell when a user changes the subject; and they never know when to give up and fetch a human. `kerobot` is a small, dependency-free Python framework that handles all four, built from patterns that held up running a live support bot across thousands of real conversations.
+kerobot is an AI livechat auto-reply framework that fixes exactly those failures: it understands informal, misspelled messages; remembers what the customer already said and skips ahead; notices when they change the subject; and hands off to a human the moment it's stuck — instead of looping. A small, dependency-free Python framework built from patterns that held up across thousands of real support conversations.
 
 It runs **offline out of the box** (deterministic keyword understanding, zero config, zero cost) and upgrades to **LLM-powered understanding** by setting one environment variable.
 
